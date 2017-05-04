@@ -32,8 +32,53 @@
 		<section id="content">
 			<div class="content-wrap">
 				<div class="container clearfix">
-					<div class="fancy-title title-dotted-border title-center">
-						<h3><small>Hosting and Maintenance</small><br />Pricing Comparison Table</h3>
+
+					<div class="modal fade CMS" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-sm">
+							<div class="modal-body">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" id="myModalLabel">Cloud Cannon CMS</h4>
+									</div>
+									<div class="modal-body">
+										<p class="nobottommargin"> CloudCannon is a cloud-based content management system and hosting provider for static and Jekyll websites. Agencies, freelancers and enterprise teams use CloudCannon to deliver CMS editable websites to clients and non-technical team members.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade cloud-host" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-sm">
+							<div class="modal-body">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" id="myModalLabel">Cloud Hosting</h4>
+									</div>
+									<div class="modal-body">
+										<p class="nobottommargin"> A typical cloud hosting offering can deliver the following features and benefits: Reliability; rather than being hosted on one single instance of a physical server the website is hosted on a virtual partition which draws its resources, such as disk space, from an extensive network of underlying physical servers.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade sub" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-sm">
+							<div class="modal-body">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" id="myModalLabel">Subdomains and testing domains</h4>
+									</div>
+									<div class="modal-body">
+										<p class="nobottommargin"> Subdomains let you put content in your URL before your domain name, such as blog. or shop. i.e., shop.website.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="modal fade CPU" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -293,7 +338,9 @@
 					</div>
 
 
-
+					<div class="fancy-title title-dotted-border title-center">
+						<h2><small>Hosting and Maintenance</small><br />Pricing Comparison Table</h2>
+					</div>
 
 					<div class="table-responsive">
 						<table class="table table-hover table-comparison nobottommargin">
@@ -308,7 +355,9 @@
 						  </thead>
 						  <tbody>
 							<tr>
-							  <td>CloudCannon</td>
+							  <td>CloudCannon
+									<a href="#" data-toggle="modal" data-target=".CMS"><i class="icon-question" style="color:light-blue; background:#eee; border-radius:25px; padding:2px 8px;" title="What is this?"></i></a>
+								</td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
@@ -322,7 +371,9 @@
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
 							<tr>
-							  <td>Cloud Hosting</td>
+							  <td>Cloud Hosting
+								<a href="#" data-toggle="modal" data-target=".cloud-host"><i class="icon-question" style="color:light-blue; background:#eee; border-radius:25px; padding:2px 8px;" title="What is this?"></i></a>
+							</td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
@@ -336,7 +387,9 @@
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
 							<tr>
-							  <td>Subdomains and testing domains</td>
+							  <td>Subdomains and testing domains
+									<a href="#" data-toggle="modal" data-target=".sub"><i class="icon-question" style="color:light-blue; background:#eee; border-radius:25px; padding:2px 8px;" title="What is this?"></i></a>
+								</td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
 							  <td><i class="icon-ok" style="color:green;"></i></td>
@@ -350,7 +403,7 @@
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
 							<tr style="background:eee !important;">
-							  <td colspan="5"><h4>Performance Hosting</h4></td>
+							  <td colspan="5"><h3>Performance Hosting</h3></td>
 							</tr>
 							<tr>
 							  <td>CPU Performance : 6 core processors
@@ -419,7 +472,7 @@
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
 							<tr style="background:eee !important;">
-							  <td colspan="5"><h4>Website Maintenance</h4></td>
+							  <td colspan="5"><h3>Website Maintenance</h3></td>
 							</tr>
 							<tr>
 							  <td>Hosting/Backend upkeep and infrastructure Maintenance
@@ -431,7 +484,7 @@
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
 							<tr>
-							  <td>1hr of Website Maintenance and Content Updates
+							  <td>1 hour of Website Maintenance and Content Updates
 									<a href="#" data-toggle="modal" data-target=".updates"><i class="icon-question" style="color:light-blue; background:#eee; border-radius:25px; padding:2px 8px;" title="What is this?"></i></a>
 								</td>
 							  <td><i class="icon-remove" style="color:red;"></i></td>
@@ -467,7 +520,7 @@
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
 							<tr>
-							  <td>1hr More of Website Maintenance and Content Updates
+							  <td>1 more hour of Website Maintenance and Content Updates
 									<a href="#" data-toggle="modal" data-target=".moreupdates"><i class="icon-question" style="color:light-blue; background:#eee; border-radius:25px; padding:2px 8px;" title="What is this?"></i></a>
 								</td>
 							  <td><i class="icon-remove" style="color:red;"></i></td>
@@ -487,7 +540,7 @@
 							</tr>
 
 							<tr>
-							  <td>1hr More of Website Maintenance and Content Updates
+							  <td>1 more hour of Website Maintenance and Content Updates
 									<a href="#" data-toggle="modal" data-target=".moreupdates2"><i class="icon-question" style="color:light-blue; background:#eee; border-radius:25px; padding:2px 8px;" title="What is this?"></i></a>
 								</td>
 							  <td><i class="icon-remove" style="color:red;"></i></td>
@@ -525,7 +578,7 @@
 							  <td><i class="icon-remove" style="color:red;"></i></td>
 								<td><i class="icon-ok" style="color:green;"></i></td>
 							</tr>
-							<tr style="background:eee !important;">
+							<tr style="background-color:eee !important;">
 							  <td colspan="5"><h4><em>Please note: Any requests over and above the chosen monthly plan will be bill at $60 per hour.</em></h4></td>
 							</tr>
 
